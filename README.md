@@ -1,32 +1,38 @@
-# Projet Quiz en Ligne
+# 📝 Projet Quiz en Ligne – 2025
 
-## Description
-Développement en équipe d’une plateforme web de gestion et participation aux quiz en ligne.  
-Le système permet à l’administrateur de gérer les utilisateurs, les cours et les quiz, et aux étudiants de participer aux quiz et de consulter leurs résultats.
 
 ---
 
-## Fonctionnalités
+## 🔹 Description
+Plateforme web de gestion et participation aux **quiz en ligne**.  
+- Les **administrateurs** peuvent gérer les utilisateurs, les cours et les quiz.  
+- Les **étudiants** peuvent participer aux quiz et consulter leurs scores.  
+
+Ce projet est développé dans le cadre d’un projet universitaire avec une architecture **Java EE complète**.
+
+---
+
+## 🔹 Fonctionnalités
 
 ### Administrateur
 - Gestion des utilisateurs (ajout, modification, suppression).  
 - Gestion des cours et quiz (ajout, modification, suppression).  
-- Visualisation des résultats des étudiants.  
+- Visualisation des résultats des étudiants.
 
 ### Étudiant
 - Consultation des cours disponibles.  
 - Participation aux quiz.  
-- Consultation des scores et historique des quiz.  
+- Consultation des scores et historique des quiz.
 
 ---
 
-## Architecture
+## 🔹 Architecture & Stack Technique
 
 - **Backend** : Java EE (Servlets, JSP)  
 - **ORM** : Hibernate pour la gestion des entités et de la base de données  
 - **Base de données** : MySQL  
 - **Serveur** : Apache Tomcat  
-- **Build** : Maven  
+- **Build & Dépendances** : Maven  
 
 **Design Patterns utilisés :**  
 - MVC (Model-View-Controller)  
@@ -37,38 +43,44 @@ Le système permet à l’administrateur de gérer les utilisateurs, les cours e
 
 ---
 
-## Installation
+## 🔹 Installation
 
-1. **Cloner le projet** :  
-   ```bash
-   git clone https://github.com/votre-utilisateur/quiz-jee.git
+1. **Cloner le projet :**
+```bash
+git clone https://github.com/votre-utilisateur/quiz-jee.git
+```
 
-Importer le projet dans IntelliJ / Eclipse en tant que projet Maven.
+2. **Importer le projet** dans IntelliJ / Eclipse en tant que projet Maven.  
 
-Configurer la base de données (MySQL) et mettre à jour les informations dans hibernate.cfg.xml.
+3. **Configurer la base de données** (MySQL) et mettre à jour `hibernate.cfg.xml`.  
 
-Construire le projet avec Maven :
-
+4. **Construire le projet avec Maven :**
+```bash
 mvn clean install
+```
 
-Déployer sur Tomcat :
+5. **Déployer sur Tomcat :**
+- Copier le `.war` dans le dossier `webapps` de Tomcat  
+- Démarrer Tomcat  
 
-Copier le .war dans le dossier webapps de Tomcat.
-
-Démarrer Tomcat.
-
-Accéder à l’application :
-
+6. **Accéder à l’application :**
+```
 http://localhost:8080/quiz-jee
-Structure du projet
+```
+
+---
+
+## 🔹 Structure du Projet
+
+```
 /MavenWebApp
 │
 ├── /src/main/java
 │   └── com.votreorganisation
-│       ├── model       # Entités (User, Course, Quiz, Question)
+│       ├── model       # Entités : User, Course, Quiz, Question
 │       ├── dao         # DAO pour accéder aux données
 │       ├── service     # Services métiers
-│       └── servlets    # Servlets pour les requêtes
+│       └── servlets    # Servlets pour gérer les requêtes
 │
 ├── /src/main/webapp
 │   ├── /admin
@@ -80,28 +92,33 @@ Structure du projet
 ├── /WEB-INF
 │   └── web.xml
 └── pom.xml
-Contribuer
+```
 
-Fork le projet.
+---
 
-Créez une branche pour votre fonctionnalité :
+## 🔹 Contribution
 
+1. Fork le projet  
+2. Créez une branche pour votre fonctionnalité :  
+```bash
 git checkout -b feature/ma-fonctionnalite
-
-Commit vos changements :
-
+```  
+3. Commit vos changements :  
+```bash
 git commit -m "Ajouter une fonctionnalité X"
-
-Poussez la branche :
-
+```  
+4. Poussez la branche :  
+```bash
 git push origin feature/ma-fonctionnalite
+```  
+5. Ouvrez une Pull Request
 
-Ouvrez une Pull Request.
+---
 
-Auteur
+## 🔹 Auteur
+- **Nom** : Kodad Naoufal , Arbib Oualid, Amine Moufid
+- **Email** : naoufalkodad@gmail.com  
+- **Année** : 2025  
 
-Nom : Kodad Naoufal
+---
 
-Email : naoufalkodad@gmail.com
-
-Année : 2025
