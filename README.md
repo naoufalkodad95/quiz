@@ -96,24 +96,6 @@ http://localhost:8080/quiz-jee
 
 ---
 
-## 🔹 Contribution
-
-1. Fork le projet  
-2. Créez une branche pour votre fonctionnalité :  
-```bash
-git checkout -b feature/ma-fonctionnalite
-```  
-3. Commit vos changements :  
-```bash
-git commit -m "Ajouter une fonctionnalité X"
-```  
-4. Poussez la branche :  
-```bash
-git push origin feature/ma-fonctionnalite
-```  
-5. Ouvrez une Pull Request
-
----
 
 ## 🔹 Auteur
 - **Nom** : Kodad Naoufal , Arbib Oualid, Amine Moufid
