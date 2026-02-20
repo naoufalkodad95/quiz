@@ -98,7 +98,7 @@ http://localhost:8080/quiz-jee
 
 
 ## 🔹 Auteur
-- **Nom** : Kodad Naoufal , Arbib Oualid, Amine Moufid
+- **Nom** : Kodad Naoufal 
 - **Email** : naoufalkodad@gmail.com  
 - **Année** : 2025  
 
